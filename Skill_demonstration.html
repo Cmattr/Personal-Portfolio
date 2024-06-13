@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Demonstration</title>
+        <meta name = "viewport" content="width-device-width, initial-scale-1.0">
+        <meta name = "description" content="A brief overview of the HTML skills I have learned so far.">
+        <meta name = "author" content="Christopher Richardson">
+    </head>
+
+    <body>
+        <h1>Skill Demonstration.</h1>
+        <p> this page will give a brief demonstration of the HTML skills I have learned so far.</p>
+
+        <section>
+            <h2>Import Media</h2>
+            
+            <p>I am able to import Images, videos, gifs and sounds.</p>
+            <img width="300" height = "200" src="the_picture.jpeg" alt="finally awake">
+            
+            <audio controls>
+            <source src="youre-finally-awake.mp3" type="audio/mpeg">
+            your browser does not support this element</audio>
+
+            <iframe src="https://giphy.com/embed/l2SpXobTjLFPHa1Ko" width="240" height="165"  frameBorder="0" class="giphy-embed" allowFullScreen>
+            </iframe><p><a href="https://giphy.com/gifs/southparkgifs-l2SpXobTjLFPHa1Ko">via GIPHY</a></p>
+
+            <iframe width="280" height="160" src="https://www.youtube.com/watch?v=B8eCph4RskA"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture"
+                allowfullscreen
+            ></iframe>
+
+        </section>
+
+        <section>
+            <h2>Create Forms</h2>
+            <p>I have learned to create forms and collect user Input</p>
+            <form action="/submit" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+            
+                <label for="password">password:</label>
+                <input type="passowrd" id="password" name="password" placeholder="Enter your password" required>
+            
+                <label for="subscribe">Subscribe to newsletter:</label>
+                <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+                    
+                <label>Gender</label>
+                <input type="radio" id="male" name="Gender" value="male">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Gender" value="female">
+                <label for="female">Female</label>
+                <br>
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea>
+            
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+                    
+                </form>
+        </section>
+
+        <section>
+            <h2>Create List</h2>
+            <p>I have learned to create both numbered and bulleted list.</p>
+            <ul>
+                <li>this</li>
+                <li>is</li>
+                <li>a</li>
+                <li>list</li>
+            </ul>
+            <ol>
+                <li>this</li>
+                <li>is</li>
+                <li>a</li>
+                <li>numbered</li>
+                <li>list</li>
+            </ol>
+        </section>
+        <section>
+            <H3>For More information.</H3>
+            <ul>
+                <p>please select a link</p>
+                <li><p>Home: <a href="homepage.html">click here</a></p></li>
+                <li><p>About Me: <a href="about_me.html">click here</a>.</p></li>
+                <li><p>Resume: <a href="resume.html">click here</a>.</p></li>
+                <li><p>View Portfolio: <a href="portfolio_projects.html">click here</a>.</p></li>
+                <li><p>Skills: <a href="skills.html">click here</a>.</p></li>
+                <li><p>Blog: <a href="blog.html">click here</a></p></li>
+                <li><p>Contact: <a href="contact.html">click here</a></p></li>
+                <li><p>Archive: <a href="archive.html">click here</a></p></li>
+                <li><p>Projects in Progress: <a href="Projects_in_progress.html">click here</a></p></li>
+            </ul>
+        </section>
+    </body>
+    <footer>
+        <p>&copy; 2024 Christopher Richardson. All rights reserved.</p>
+    </footer>
+</html>
